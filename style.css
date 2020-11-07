@@ -1,0 +1,114 @@
+body {
+    font-family: 'Libre Franklin', sans-serif;
+    color: hsl(209, 33%, 12%);
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 100px 35px;
+}
+
+span {
+    color: hsl(0, 0%, 59%);
+    font-weight: 300;
+}
+
+ion-icon {
+    font-size: 25px;
+    color:  hsl(223, 87%, 63%);
+}
+
+.welcome img {
+    height: 20px;
+}
+
+.welcome h1 {
+    font-weight: 600;
+    margin: 50px 0 0 0;
+}
+
+
+.subscription-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subscription-form input, button {
+    box-sizing: border-box;
+    width: 90%;
+    padding: 0;
+    border-radius: 40px;
+    margin: 5px 0;
+    height: 50px;
+}
+
+.subscription-form input {
+    border: 1px solid hsl(223, 100%, 88%);
+    color: hsl(0, 0%, 59%);
+    padding-left: 30px;
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+.subscription-form button {
+    border: none;
+    background-color: hsl(223, 87%, 63%);
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    transition: background-color 0.5s;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3);
+}
+
+.subscription-form button:hover {
+    background-color: hsl(223, 46%, 49%);
+}
+
+.dashboard-img {
+    margin-top: 100px;
+}
+
+.dashboard-img img {
+    width: 100%
+}
+
+footer {
+    margin-top: 100px;
+    color: hsl(0, 0%, 59%);
+    font-size: 14px;
+}
+
+footer .social-medias *{
+    padding: 10px;
+}
+
+
+@media screen and (min-width: 768px) {
+
+    body {
+        padding: 50px 0;
+    }
+    
+    .subscription-form {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .subscription-form input {
+        width: 70%;
+        padding-left: 30px;
+        margin: 0;
+    }
+
+    .subscription-form button {
+        width: 23%;
+    }
+
+    .dashboard-img {
+        margin-top: 50px;
+    }
+
+    footer {
+        margin-top: 50px;
+    }
+}
